@@ -1,0 +1,71 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "A react(ive) cooking recipes website",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/itraznea/Recipes.git"
+  },
+  "keywords": [
+    "cooking",
+    "recipes",
+    "recipes",
+    "cooking",
+    "cookies",
+    "sweets",
+    "savory",
+    "react"
+  ],
+  "author": "Ion Traznea",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/itraznea/Recipes/issues"
+  },
+  "homepage": "https://github.com/itraznea/Recipes#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "classnames": "^2.2.5",
+    "cors": "^2.8.4",
+    "eslint-plugin-react": "^7.9.0",
+    "express": "^4.16.3",
+    "history": "^4.7.2",
+    "mongojs": "^2.6.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.4",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-mozilla": "^0.13.0",
+    "eslint-plugin-no-unsanitized": "^3.0.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "jest": "^23.1.0",
+    "redux-devtools-extension": "^2.13.2",
+    "standard": "^11.0.1",
+    "webpack": "^4.10.2"
+  }
+}
