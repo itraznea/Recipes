@@ -2,6 +2,7 @@ node_modules/
 application.info
 logs/
 public/assets/js/bundle.js
+public/assets/js/bundle.js.map
 public/assets/css/style.css
 public/assets/css/media.css
 .idea

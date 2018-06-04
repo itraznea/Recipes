@@ -1,0 +1,31 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "standard",
+      "plugin:react/recommended",
+      "plugin:jest/recommended",
+      "plugin:mozilla/recommended"
+    ],
+    "env" : {
+      "browser" : true,
+      "node" : true,
+      "es6" : true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "plugins": [
+      "mozilla"
+    ],
+    "rules": {
+      "no-tabs":"off",
+      "indent":["error", "tab", {
+        "SwitchCase": 1
+      }],
+      "no-return-assign": "off",
+      "no-console": "off",
+      "no-fallthrough": "warn",
+      "spaced-comment": "off",
+      "no-unexpected-multiline": "off"
+    }
+  }

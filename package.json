@@ -4,15 +4,16 @@
   "description": "A react(ive) cooking recipes website",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "npm run fix && npm run build && NODE_ENV='development' node ./",
+    "build": "gulp",
+    "fix": "eslint --fix ./server && eslint --fix ./client"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/itraznea/Recipes.git"
   },
   "keywords": [
-    "cooking",
-    "recipes",
     "recipes",
     "cooking",
     "cookies",
@@ -29,6 +30,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
@@ -45,7 +47,7 @@
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-router-redux": "^4.0.8",
+    "react-router-redux": "^5.0.0-alpha.9",
     "redux": "^4.0.0"
   },
   "devDependencies": {
