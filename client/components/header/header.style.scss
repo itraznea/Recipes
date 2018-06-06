@@ -1,0 +1,23 @@
+nav {
+    .nav-menu-container {
+        display: inline-block;
+        width: 60%;
+        padding-top: 5px;
+    }
+
+    .nav-login {
+        float: right;
+        clear: both;
+        width: 100%;
+    }
+
+    .login-input {
+        padding-top: 5px;
+        width: 140px;
+        height: 30px;
+    }
+
+    .btn-login {
+        vertical-align: middle;
+    }
+}

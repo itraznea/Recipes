@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
+import Header from "../../components/header";
 
 export class Index extends React.Component {
 	get preloaded() {
@@ -15,7 +16,7 @@ export class Index extends React.Component {
 			<html id="html">
 				<head>
 					<meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-					<meta name="viewport" content="width=device-width, initial-scale=1" />
+					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 					<link
 						rel="stylesheet"
 						href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
@@ -28,7 +29,7 @@ export class Index extends React.Component {
 					<script dangerouslySetInnerHTML={this.preloaded}/>
 				</head>
 				<body className={this.bgClass}>
-					<h1>This is a baseline project. Modify this to your needs.</h1>
+					<Header />
 					<script src="/assets/js/bundle.js" />
 				</body>
 			</html>
