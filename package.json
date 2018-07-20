@@ -4,7 +4,7 @@
   "description": "A react(ive) cooking recipes website",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test",
+    "test": "jest",
     "start": "npm run fix && npm run build && NODE_ENV='development' node ./",
     "build": "gulp",
     "fix": "eslint --fix ./server && eslint --fix ./client"
@@ -37,6 +37,7 @@
     "bcrypt": "^2.0.1",
     "body-parser": "^1.18.3",
     "classnames": "^2.2.5",
+    "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "eslint-plugin-react": "^7.9.0",
     "express": "^4.16.3",

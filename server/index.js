@@ -6,6 +6,7 @@ import {renderToString} from "react-dom/server";
 import StaticRouter from "react-router-dom/StaticRouter";
 import { Provider } from "react-redux";
 import bodyParser from "body-parser";
+import cookieParser from "cookie-parser";
 import express from "express";
 import cors from "cors";
 import mongojs from "mongojs";
@@ -20,6 +21,7 @@ const app = express();
 app.use(cors());
 app.use(express.static(path.resolve("./public/")));
 app.use(bodyParser.json());
+app.use(cookieParser());
 
 const mongoConnection = mongojs("localhost/recipes");
 

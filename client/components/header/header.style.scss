@@ -5,19 +5,55 @@ nav {
         padding-top: 5px;
     }
 
+    .login-bar-form {
+        display: inline-block;
+    }
+
     .nav-login {
         float: right;
         clear: both;
-        width: 100%;
+        margin: auto;
     }
 
     .login-input {
         padding-top: 5px;
-        width: 140px;
+        width: 98%;
         height: 30px;
+        margin: 2px;
     }
 
     .btn-login {
-        vertical-align: middle;
+        margin: 3px;
+        display: block;
+        width: 100%;
     }
+
+    .register-link {
+        margin: 3px;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-hello {
+        float: right;
+        clear: both;
+        margin-right: 115px;
+        .nav-link {
+            display: inline-block;
+        }
+        .nav-item {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: red;
+        }
+    }
+    
+    .dropdown {
+        padding-right: 10px;
+        cursor: pointer;
+        display: inline-block;
+    }
+
 }

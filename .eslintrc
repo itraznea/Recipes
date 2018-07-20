@@ -26,6 +26,7 @@
       "no-console": "off",
       "no-fallthrough": "warn",
       "spaced-comment": "off",
+      "curly": "off",
       "no-unexpected-multiline": "off"
     }
   }
